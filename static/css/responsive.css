@@ -1,0 +1,76 @@
+h1,
+    .h1{
+        font-size: 26px;
+        line-height: 1.2;
+    }
+h2,
+    .h2{
+        font-size: 22px;
+        line-height: 1.2;
+    }
+h3,
+    .h3{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+ .nav-container {
+        background-color: #211614;
+        padding: 0;
+    }
+
+.navbar-header {
+        width: 100%!important;
+    }
+
+
+@media (max-width: 2000px) {
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px){
+     .description-dock .summary{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .description-dock .title{
+        font-size: 28px;
+        line-height: 1;
+        top: -56px;
+        height: 55px;
+    }
+
+    .banner_share .banner .banner_img{
+        /*width:200%;*/
+        /*max-width: 200%;*/
+        /*transform: translateX(-25%);*/
+        /*-webkit-transform: translateX(-25%);*/
+        /*-moz-transform: translateX(-25%);*/
+        /*-o-transform: translateX(-25%);*/
+    }
+
+    .banner_share .banner .banner-h1, .banner h1{
+            font-size: 26px;
+        }
+    .banner_share .banner .banner-p{
+            font-size: 16px;
+            margin-top: 10px;
+        }
+}
+
+.grid-container {
+        display: grid; /* 使用 Grid 布局 */
+        grid-template-columns: auto auto; /* 列宽度自适应内容 */
+        align-items: center; /* 垂直居中对齐 */
+    }
+
+.icon{
+        display: flex;
+        place-items: center;
+        width: 40px;
+        height: 40px;
+    }
